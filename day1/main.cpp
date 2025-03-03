@@ -1,7 +1,8 @@
 #include "greet.h"
 
 int main() {
-    greet();
+    greet(true);
+    greet(false);
     welcome();
     farewell();
     goodbye();
